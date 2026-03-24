@@ -1,0 +1,43 @@
+{
+  "type": "menu",
+  "title": "Muridae Store",
+  "description": "Explora nuestros productos y contáctanos fácilmente",
+  "items": [
+    {
+      "id": "lens-001",
+      "name": "Lente Bluetooth",
+      "price": "$200",
+      "description": "Lentes inteligentes con conexión Bluetooth",
+      "image": "assets/menu/lente.png",
+      "actions": [
+        {
+          "type": "whatsapp",
+          "label": "Consultar",
+          "value": "+521234567890"
+        }
+      ]
+    },
+    {
+      "id": "case-001",
+      "name": "Estuche elegante",
+      "price": "$50",
+      "description": "Protección premium para tus lentes",
+      "image": "assets/menu/estuche.png",
+      "actions": [
+        {
+          "type": "link",
+          "label": "Ver más",
+          "value": "https://tusitio.com/producto"
+        }
+      ]
+    },
+    {
+      "id": "cloth-001",
+      "name": "Paño de limpieza",
+      "price": "$10",
+      "description": "Ideal para mantener tus lentes impecables",
+      "image": "assets/menu/pano.png"
+    }
+  ],
+  "_signature": "OCULTA-PARA-LA-APP"
+}
