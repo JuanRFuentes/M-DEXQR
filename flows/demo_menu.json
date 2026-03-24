@@ -8,7 +8,7 @@
       "name": "Lente Bluetooth",
       "price": "$200",
       "description": "Lentes inteligentes con conexión Bluetooth",
-      "image": "assets/menu/lente.png",
+      "image": "https://raw.githubusercontent.com/JuanRFuentes/M-DEXQR/refs/heads/main/assets/menu/p1.jpg",
       "actions": [
         {
           "type": "whatsapp",
@@ -22,7 +22,7 @@
       "name": "Estuche elegante",
       "price": "$50",
       "description": "Protección premium para tus lentes",
-      "image": "assets/menu/estuche.png",
+      "image": "https://raw.githubusercontent.com/JuanRFuentes/M-DEXQR/refs/heads/main/assets/menu/p2.jpg",
       "actions": [
         {
           "type": "link",
@@ -36,7 +36,7 @@
       "name": "Paño de limpieza",
       "price": "$10",
       "description": "Ideal para mantener tus lentes impecables",
-      "image": "assets/menu/pano.png"
+      "image": "https://raw.githubusercontent.com/JuanRFuentes/M-DEXQR/refs/heads/main/assets/menu/p3.jpg"
     }
   ],
   "_signature": "OCULTA-PARA-LA-APP"
