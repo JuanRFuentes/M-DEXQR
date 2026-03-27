@@ -1,0 +1,14 @@
+{
+  "type": "restaurant_menu_v1",
+  "business": "MURIDAE DEX",
+  "whatsapp": "+5213221383036",
+  "catalog_ref": "https://raw.githubusercontent.com/JuanRFuentes/M-DEXQR/main/flows/menu/catalog.json",
+  "items": [
+    "comida_01",
+    "comida_02",
+    "bebida_01",
+    "promo_01"
+  ],
+  "public_key": "EL_HASH_DE_TU_FRASE_MAESTRA",
+  "signature": "EL_SELLO_DE_ESTE_ARCHIVO"
+}
