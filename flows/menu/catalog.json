@@ -2,53 +2,38 @@
   "catalog_id": "MURIDAE-CAT-001",
   "last_update": "2026-03-26",
   "currency": "MXN",
-  "categories": ["Comida", "Bebidas",  "CUPONES","Promociones"],
+  "categories": [
+    {
+      "name": "Comida",
+      "icon": "Restaurant"
+    },
+    {
+      "name": "Bebidas",
+      "icon": "LocalBar"
+    },
+    {
+      "name": "postres",
+      "icon": "Sell"
+    },
+    {
+      "name": "Promociones",
+      "icon": "Promotions"
+    }
+  ],
   "products": {
     "food_01": {
-      "title": "Hamburguesa Muridae Pro",
-      "desc": "200g de res premium, queso cheddar fundido y pan artesanal de la casa.",
+      "title": "coffe",
+      "desc": "200g de res premium, queso cheddar fundido.",
       "price": "185.00",
-      "img": "https://raw.githubusercontent.com/JuanRFuentes/M-DEXQR/main/assets/menu/hamburguesa.jpg",
-      "category": "Comida",
-      "tags": ["Popular", "Bestseller"]
-    },
-    "food_02": {
-      "title": "Tacos de Suadero (Orden 3)",
-      "desc": "Suadero confitado lentamente, servidos con cebollitas y cilantro fresco.",
-      "price": "95.00",
-      "img": "https://raw.githubusercontent.com/JuanRFuentes/M-DEXQR/main/assets/menu/tacos.jpg",
+      "img": "menu/hamburguesa.jpg",
       "category": "Comida"
     },
     "drink_01": {
       "title": "Mezcalita de Maracuyá",
-      "desc": "Mezcal artesanal, pulpa natural de maracuyá y escarchado de tajín.",
+      "desc": "Mezcal artesanal y pulpa natural.",
       "price": "120.00",
-      "img": "https://raw.githubusercontent.com/JuanRFuentes/M-DEXQR/main/assets/menu/mezcalita.jpg",
+      "img": "menu/mezcalita.jpg",
       "category": "Bebidas"
-    },
-    "drink_02": {
-      "title": "Cerveza Artesanal Muridae",
-      "desc": "Cerveza tipo Pale Ale con notas cítricas, 4.5% Alc.",
-      "price": "85.00",
-      "img": "https://raw.githubusercontent.com/JuanRFuentes/M-DEXQR/main/assets/menu/cerveza.jpg",
-      "category": "Bebidas"
-    },
-    "promo_01": {
-      "title": "Combo Pareja Muridae",
-      "desc": "2 Hamburguesas Pro + 2 Cervezas Artesanales por un precio especial.",
-      "price": "450.00",
-      "old_price": "540.00",
-      "img": "https://raw.githubusercontent.com/JuanRFuentes/M-DEXQR/main/assets/menu/combo.jpg",
-      "category": "Promociones",
-      "is_promo": true
-    },
-    "promo_02": {
-      "title": "Jueves de 2x1 Mezcalitas",
-      "desc": "Aplica solo los jueves. Elige tu sabor favorito.",
-      "price": "120.00",
-      "img": "https://raw.githubusercontent.com/JuanRFuentes/M-DEXQR/main/assets/menu/promo_mezcal.jpg",
-      "category": "Promociones",
-      "is_promo": true
     }
   }
 }
