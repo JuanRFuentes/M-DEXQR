@@ -2,13 +2,22 @@
   "type": "restaurant_menu_v1",
   "business": "MURIDAE DEX",
   "whatsapp": "+5213221383036",
-  "catalog_ref": "https://raw.githubusercontent.com/JuanRFuentes/M-DEXQR/main/flows/menu/catalog.json",
+  "submission_mode": "dexqr_mesh",
+  "version_code": 2026033001,
+  "catalog_ref": "menu/catalog.json",
   "items": [
-    "comida_01",
-    "comida_02",
-    "bebida_01",
+    "food_01",
+    "drink_01",
     "promo_01"
   ],
-  "public_key": "EL_HASH_DE_TU_FRASE_MAESTRA",
-  "signature": "EL_SELLO_DE_ESTE_ARCHIVO"
+  "config": {
+    "mesh_priority": true,
+    "allow_p2p_sharing": true,
+    "update_strategy": "delta_flood"
+  },
+  "authority": {
+    "keystone_pub": "TU_CLAVE_PUBLICA_ADMIN_AQUÍ",
+    "node_id": "MURI-MASTER-01"
+  },
+  "signature": "FIRMA_HEX_DE_ESTE_ARCHIVO"
 }
