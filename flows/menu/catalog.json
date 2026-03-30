@@ -46,3 +46,100 @@
     }
   }
 }
+
+
+
+
+
+
+
+
+{
+  "catalog_id": "MURIDAE-CAT-001",
+  "version_code": 2026033004,
+  "categories": [
+    {
+      "id": "cat_food",
+      "name": "Comida",
+      "icon": "Restaurant",
+      "priority": 1
+    },
+    {
+      "id": "cat_drink",
+      "name": "Bebidas",
+      "icon": "LocalBar",
+      "priority": 2
+    },
+    {
+      "id": "cat_promo",
+      "name": "Promociones",
+      "icon": "Sell",
+      "priority": 0
+    }
+  ],
+  "products": {
+    "food_01": {
+      "title": "Muri Burger Classic",
+      "desc": "200g de res premium, queso cheddar fundido.",
+      "price": "185.00",
+      "img": "menu/p1.jpg",
+      "category": "Comida",
+      "is_promo": false,
+      "status": "AVAILABLE",
+      "last_sync": 1711750000
+    },
+    "food_02": {
+      "title": "Double Fire Rat",
+      "desc": "Doble carne, jalapeños y salsa secreta picante.",
+      "price": "220.00",
+      "img": "menu/p1.jpg",
+      "category": "Comida",
+      "is_promo": false,
+      "status": "AVAILABLE",
+      "last_sync": 1711750000
+    },
+    "drink_01": {
+      "title": "Mezcalita Maracuyá",
+      "desc": "Mezcal artesanal y pulpa natural de maracuyá.",
+      "price": "120.00",
+      "img": "menu/p2.jpg",
+      "category": "Bebidas",
+      "is_promo": false,
+      "status": "AVAILABLE",
+      "last_sync": 1711750000
+    },
+    "drink_02": {
+      "title": "Artesanal Muridae",
+      "desc": "Cerveza de la casa, notas de café y chocolate.",
+      "price": "95.00",
+      "img": "menu/p2.jpg",
+      "category": "Bebidas",
+      "is_promo": false,
+      "status": "AVAILABLE",
+      "last_sync": 1711750000
+    },
+    "dessert_01": {
+      "title": "Volcán de Chocolate",
+      "desc": "Corazón líquido de cacao al 70% y helado de vainilla.",
+      "price": "110.00",
+      "img": "menu/p3.jpg",
+      "category": "Postres",
+      "is_promo": false,
+      "status": "AVAILABLE",
+      "last_sync": 1711750000
+    },
+    "promo_01": {
+      "title": "Combo Pareja Muridae",
+      "desc": "2 Muri Burgers + 2 Cervezas Artesanales.",
+      "price": "450.00",
+      "old_price": "540.00",
+      "img": "menu/p3.jpg",
+      "category": "Promociones",
+      "is_promo": true,
+      "promo_label": "BEST SELLER",
+      "status": "AVAILABLE",
+      "last_sync": 1711750000
+    }
+  },
+  "hash_integrity": "AUTO_GENERATED_BY_KEYSTONE"
+}
