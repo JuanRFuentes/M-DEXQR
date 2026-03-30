@@ -25,14 +25,23 @@
       "title": "coffe",
       "desc": "200g de res premium, queso cheddar fundido.",
       "price": "185.00",
-      "img": "menu/hamburguesa.jpg",
+      "img": "menu/p1.jpg",
       "category": "Comida"
+    },
+     "promo_01": {
+      "title": "Combo Pareja Muridae",
+      "desc": "2 Hamburguesas Pro + 2 Cervezas Artesanales por un precio especial.",
+      "price": "450.00",
+      "old_price": "540.00",
+      "img": "menu/p3.jpg",
+      "category": "Promociones",
+      "is_promo": true
     },
     "drink_01": {
       "title": "Mezcalita de Maracuyá",
       "desc": "Mezcal artesanal y pulpa natural.",
       "price": "120.00",
-      "img": "menu/mezcalita.jpg",
+      "img": "menu/p2.jpg",
       "category": "Bebidas"
     }
   }
