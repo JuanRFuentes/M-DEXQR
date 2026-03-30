@@ -2,7 +2,7 @@
   "catalog_id": "MURIDAE-CAT-001",
   "last_update": "2026-03-26",
   "currency": "MXN",
-  "categories": ["Comida", "Bebidas", "Promociones"],
+  "categories": ["Comida", "Bebidas",  "CUPONES","Promociones"],
   "products": {
     "food_01": {
       "title": "Hamburguesa Muridae Pro",
